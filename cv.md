@@ -23,5 +23,9 @@ Entry-level Front-End Developer with a strong enthusiasm for web-development and
 - No commercial experience yet, only learning projects.
 
 ## Education
+- MITSO University
 
+## Languages
+- Russian C2 (native)
+- English B2 (Upper Intermediate)
 ```
