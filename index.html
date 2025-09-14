@@ -49,7 +49,7 @@ function createPassword() {
   password += lowercaseChars[Math.floor(Math.random() * lowercaseChars.length)];
   password += numbersChars[Math.floor(Math.random() * numbersChars.length)];
   password += symbolsChars[Math.floor(Math.random() * symbolsChars.length)];
-  while (length > password.length) {
+  while (length &gt password.length) {
     password += allChars[Math.floor(Math.random() * allChars.length)];
   }
   passwordBox.value = password;
