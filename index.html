@@ -1,41 +1,85 @@
-<pre><code><span class="hljs-meta"># Anastasiya Tsimashenka</span>
+<!DOCTYPE html>
+<html lang="en">
 
-<span class="hljs-meta"> Contacts</span>
-- Location: Vitebsk, Belarus
-- Phone number: +<span class="hljs-number">375</span> <span class="hljs-number">33</span> <span class="hljs-number">619</span> <span class="hljs-number">36</span> <span class="hljs-number">51</span>
-- Email: a3433923@gmail.com
-- Github: https:<span class="hljs-comment">//github.com/smbbae</span>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV</title>
+  <link rel="stylesheet" href="style.css">
+</head>
 
-<span class="hljs-meta"> About Me</span>
-Entry-level Front-End Developer with a strong enthusiasm <span class="hljs-keyword">for</span> web-development and a commitment to continuous learning.
+<body>
+  <header>
+    <h1>Anastasiya Tsimashenka</h1>
+  </header>
 
-<span class="hljs-meta">Skills</span>
-- HTML
-- CSS
-- JavaScript
-- React
-- Git
+  <main>
+    <section>
+      <h2>Contacts</h2>
+      <ul>
+        <li>Location: Belarus</li>
+        <li>Phone number: <a href="tel:+375336193651">+375 33 619 36 51</a></li>
+        <li>Email: <a href="mailto:a3433923@gmail.com">a3433923@gmail.com</a></li>
+        <li>GitHub: <a href="https://github.com/smbbae" target="_blank">github.com/smbbae</a></li>
+      </ul>
+    </section>
 
-<span class="hljs-meta"> Code Example</span>
+    <section>
+      <h2>About me</h2>
+      <p>Entry-level Front-end developer with a strong enthusiasm for web-development and commitment for continuous
+        learning</p>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JS</li>
+        <li>React</li>
+        <li>Git</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Code example</h2>
+      <pre><code>
 function createPassword() {
-  let password = <span class="hljs-string">''</span>;
-  password += uppercaseChars[Math.<span class="hljs-built_in">floor</span>(Math.<span class="hljs-built_in">random</span>() * uppercaseChars.<span class="hljs-built_in">length</span>)];
-  password += lowercaseChars[Math.<span class="hljs-built_in">floor</span>(Math.<span class="hljs-built_in">random</span>() * lowercaseChars.<span class="hljs-built_in">length</span>)];
-  password += numbersChars[Math.<span class="hljs-built_in">floor</span>(Math.<span class="hljs-built_in">random</span>() * numbersChars.<span class="hljs-built_in">length</span>)];
-  password += symbolsChars[Math.<span class="hljs-built_in">floor</span>(Math.<span class="hljs-built_in">random</span>() * symbolsChars.<span class="hljs-built_in">length</span>)];
-  <span class="hljs-keyword">while</span> (<span class="hljs-built_in">length</span> &gt; password.<span class="hljs-built_in">length</span>) {
-    password += allChars[Math.<span class="hljs-built_in">floor</span>(Math.<span class="hljs-built_in">random</span>() * allChars.<span class="hljs-built_in">length</span>)];
+  let password = '';
+  password += uppercaseChars[Math.floor(Math.random() * uppercaseChars.length)];
+  password += lowercaseChars[Math.floor(Math.random() * lowercaseChars.length)];
+  password += numbersChars[Math.floor(Math.random() * numbersChars.length)];
+  password += symbolsChars[Math.floor(Math.random() * symbolsChars.length)];
+  while (length > password.length) {
+    password += allChars[Math.floor(Math.random() * allChars.length)];
   }
   passwordBox.value = password;
 }
+      </code></pre>
+    </section>
 
-<span class="hljs-meta">Experience</span>
-- No commercial experience yet, only learning projects.
+    <section>
+      <h2>Experience</h2>
+      <p>No commercial experience yet, only learning projects</p>
+    </section>
 
-<span class="hljs-meta"> Education</span>
-- MITSO University
+    <section>
+      <h2>Education</h2>
+      <p>Bachelor's degree in cross-cultural communications (2023-current)</p>
+    </section>
 
-<span class="hljs-meta"> Languages</span>
-- Russian C2 (native)
-- English B2 (Upper Intermediate)
-</code></pre>
+    <section>
+      <h2>Languages</h2>
+      <ul>
+        <li>Russian C2 (native)</li>
+        <li>English B2+ (Upper Intermediate)</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>2025 CV</p>
+  </footer>
+</body>
+
+</html>
